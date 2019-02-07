@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sp.controllers.EditController">
+    <children>
+        <ButtonBar layoutX="36.0" layoutY="149.0" prefHeight="37.0" prefWidth="200.0">
+            <buttons>
+                <Button fx:id="editSaveButton" mnemonicParsing="false" text="Save" />
+                <Button fx:id="editCloseButton" mnemonicParsing="false" text="Close" />
+            </buttons>
+        </ButtonBar>
+        <TextField fx:id="editNameField" layoutX="62.0" layoutY="63.0" prefHeight="25.0" prefWidth="176.0" />
+        <DatePicker fx:id="editDateField" editable="false" layoutX="63.0" layoutY="116.0" />
+      <Text layoutX="134.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:" />
+      <Text layoutX="136.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date:" />
+    </children>
+   <rotationAxis>
+      <Point3D />
+   </rotationAxis>
+</AnchorPane>
